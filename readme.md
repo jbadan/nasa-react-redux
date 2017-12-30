@@ -1,21 +1,3 @@
-# Chapter 5!
+NASA API
 
-https://medium.com/@wesharehoodies/simple-beginner-guide-for-webpack-2-0-from-scratch-part-v-495dba627718
-
-## How to start
-
-```bash
-npm install
-```
-
-```
-npm run start
-```
-
-```
-npm run production
-```
-
-```
-npm run build
-```
+react-redux from https://medium.freecodecamp.org/learn-how-to-build-astronomy-picture-of-the-day-app-with-nasa-api-and-react-redux-part-ii-83f15970d0e3
