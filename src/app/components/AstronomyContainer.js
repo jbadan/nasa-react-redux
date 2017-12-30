@@ -14,15 +14,18 @@ class AstronomyContainer extends Component {
     const END_POINT = "https://api.nasa.gov/planetary/apod?api_key=";
     axios.get(END_POINT+API_KEY)
       .then(response => {
-        console.log(response)
+        this.setState({
+          astronomy: response.data
+        })
       })
       .catch(error => {
         console.log(error, 'failed to fetch data')
       })
   }
   render(){
+    const { astronomy } = this.state;
     return (
-      <div> hi </div>
+      <AstronomyCard data={astronomy} />
     )
   }
 }
